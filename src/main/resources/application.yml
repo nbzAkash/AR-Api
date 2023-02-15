@@ -1,0 +1,24 @@
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: AR-API
+    
+  datasource:
+    username: null
+    password: null
+    url:      null
+  
+  boot:
+    admin:
+      client:
+        url: null
+       
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
